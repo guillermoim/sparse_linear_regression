@@ -1,0 +1,27 @@
+L0Learn Method
+----------
+
+(65990, 4)
+Converting features to R matrix
+	flatten done
+	vector created
+	matrix created
+Lambda=0.483172
+	Intercept	2.330004546143355
+Score 0.0
+Lambda=0.47834
+	Intercept	-0.04353579551232789
+	Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9663440185234401
+Lambda=0.00840033
+	Intercept	-0.39511136279931414
+	Feat 1	(c=1)	weight 0.7254:	Bool[holding]
+	Feat 30	(c=4)	weight 1.83:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9835825553904183
+Lambda=0.000341569
+	Intercept	-0.4412939433898564
+	Feat 1	(c=1)	weight 0.6177:	Bool[holding]
+	Feat 8	(c=3)	weight -0.7912:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.8223:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.854:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9881560887524853

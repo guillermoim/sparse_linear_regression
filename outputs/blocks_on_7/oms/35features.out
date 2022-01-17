@@ -1,0 +1,35 @@
+Considering 35 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 35 features
+	Feat 1707	(c=8)	weight 1.6:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 4653	(c=8)	weight 0.5:	Bool[And(Forall(on,ontable),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.2734242028214501
+find 3 best features out of 35 features
+	Feat 25	(c=3)	weight 1.8:	Bool[Exists(on,Nominal(a))]
+	Feat 1707	(c=8)	weight 1.4:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 4653	(c=8)	weight 0.42:	Bool[And(Forall(on,ontable),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.32541184330921213
+find 4 best features out of 35 features
+	Feat 25	(c=3)	weight 2.0:	Bool[Exists(on,Nominal(a))]
+	Feat 569	(c=7)	weight -0.5:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1707	(c=8)	weight 1.6:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 4653	(c=8)	weight 0.45:	Bool[And(Forall(on,ontable),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.36365321821561536
+find 5 best features out of 35 features
+	Feat 25	(c=3)	weight 1.7:	Bool[Exists(on,Nominal(a))]
+	Feat 569	(c=7)	weight -0.49:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1707	(c=8)	weight 1.6:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 3890	(c=7)	weight -3.6:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 4653	(c=8)	weight 0.47:	Bool[And(Forall(on,ontable),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.38489618086413213
+find 6 best features out of 35 features
+	Feat 25	(c=3)	weight 2.1:	Bool[Exists(on,Nominal(a))]
+	Feat 569	(c=7)	weight -0.66:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1707	(c=8)	weight 0.93:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 2146	(c=8)	weight 1.1:	Num[Not(And(Forall(on,Nominal(a)),Or(clear,ontable)))]
+	Feat 3890	(c=7)	weight -3.8:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 4653	(c=8)	weight 0.41:	Bool[And(Forall(on,ontable),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.4242142214405106

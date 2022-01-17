@@ -1,0 +1,191 @@
+Considering 20 features
+L0Learn Method
+----------
+
+Lambda=0.0900979
+	Intercept	6.108652826185786
+Score 0.0
+Lambda=0.0891969
+	Intercept	11.353345657091397
+	Feat 17	(c=3)	weight -1.717:	Num[Or(ontable,Nominal(b))]
+Score 0.1801957806078548
+Lambda=0.0661099
+	Intercept	13.941352158302344
+	Feat 17	(c=3)	weight -1.51:	Num[Or(ontable,Nominal(b))]
+	Feat 1454	(c=8)	weight -1.746:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+Score 0.3163028881047135
+Lambda=0.0190668
+	Intercept	3.769156754277449
+	Feat 17	(c=3)	weight -1.796:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.661:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -1.737:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+Score 0.359252062207685
+Lambda=0.013775
+	Intercept	2.6573870027207986
+	Feat 17	(c=3)	weight -1.808:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.814:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -1.612:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 3890	(c=7)	weight -4.171:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.38813726513100455
+Lambda=0.00923355
+	Intercept	5.3651985631315045
+	Feat 0	(c=1)	weight -1.531:	Atom[handempty]
+	Feat 17	(c=3)	weight -1.631:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.607:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -2.149:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 3890	(c=7)	weight -4.606:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.41655947147329364
+Lambda=0.00577405
+	Intercept	3.595523225978961
+	Feat 0	(c=1)	weight -2.531:	Atom[handempty]
+	Feat 17	(c=3)	weight -1.175:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 1.792:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.408:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 0.9171:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -2.603:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 2314	(c=8)	weight 1.393:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3890	(c=7)	weight -3.364:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.4821504809205607
+Lambda=0.00256769
+	Intercept	-3.0423903470939244
+	Feat 0	(c=1)	weight -2.666:	Atom[handempty]
+	Feat 17	(c=3)	weight -1.13:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 2.145:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.472:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 0.8483:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -2.686:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1866	(c=8)	weight 0.9235:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 1.588:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3890	(c=7)	weight -3.345:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.4888217104787439
+Lambda=0.0013766
+	Intercept	-0.34928818745176393
+	Feat 0	(c=1)	weight -2.472:	Atom[handempty]
+	Feat 17	(c=3)	weight -1.197:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 1.83:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.472:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 0.8821:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.3037:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1454	(c=8)	weight -2.719:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1866	(c=8)	weight 0.7899:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 1.498:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3890	(c=7)	weight -3.438:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 4696	(c=8)	weight -0.2465:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.49809712815796414
+Lambda=0.000467166
+	Intercept	-0.0857994494788441
+	Feat 0	(c=1)	weight -2.414:	Atom[handempty]
+	Feat 17	(c=3)	weight -1.167:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 1.799:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.577:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 0.7912:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.3037:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1454	(c=8)	weight -2.729:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1866	(c=8)	weight 0.8004:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 1.521:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3890	(c=7)	weight -4.206:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 3995	(c=8)	weight 0.1295:	Bool[And(holding,Nominal(a))] Num[Or(Not(Nominal(a)),holding)]
+	Feat 4696	(c=8)	weight -0.2378:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.49993814687023774
+Lambda=0.000335769
+	Intercept	-1.9267345194663434
+	Feat 0	(c=1)	weight -2.956:	Atom[handempty]
+	Feat 17	(c=3)	weight -0.6613:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 2.275:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.952:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 0.9824:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.4345:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1159	(c=8)	weight -0.6038:	Num[Or(Forall(Star(on),Or(Nominal(a),Nominal(b))),clear)]
+	Feat 1454	(c=8)	weight -2.623:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1866	(c=8)	weight 0.8777:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 1.967:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3701	(c=8)	weight -0.5475:	Bool[holding] Bool[Exists(on,And(Not(ontable),Nominal(b)))]
+	Feat 3890	(c=7)	weight -4.351:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 3995	(c=8)	weight 0.1344:	Bool[And(holding,Nominal(a))] Num[Or(Not(Nominal(a)),holding)]
+	Feat 4696	(c=8)	weight -0.1175:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.5072241935789801
+Lambda=0.000104137
+	Intercept	-2.945044565399982
+	Feat 0	(c=1)	weight -3.202:	Atom[handempty]
+	Feat 17	(c=3)	weight -0.4138:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 2.889:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.997:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 0.9542:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.2833:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1159	(c=8)	weight -0.7191:	Num[Or(Forall(Star(on),Or(Nominal(a),Nominal(b))),clear)]
+	Feat 1454	(c=8)	weight -2.745:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1866	(c=8)	weight 0.931:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 2.07:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3701	(c=8)	weight -0.369:	Bool[holding] Bool[Exists(on,And(Not(ontable),Nominal(b)))]
+	Feat 3890	(c=7)	weight -4.223:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 3995	(c=8)	weight 0.1293:	Bool[And(holding,Nominal(a))] Num[Or(Not(Nominal(a)),holding)]
+	Feat 4265	(c=6)	weight 0.08274:	Bool[Exists(on,Nominal(b))] Num[Forall(on,<empty>)]
+	Feat 4325	(c=8)	weight -1.045:	Bool[Exists(on,Nominal(b))] Bool[Exists(Inverse(on),Nominal(b))]
+	Feat 4696	(c=8)	weight -0.146:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.5095680384990666
+Lambda=2.67177e-05
+	Intercept	-4.22679443425678
+	Feat 0	(c=1)	weight -3.241:	Atom[handempty]
+	Feat 17	(c=3)	weight -0.4875:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 2.99:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 2.019:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 1.092:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.2541:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1145	(c=8)	weight -0.07442:	Num[Or(Forall(Inverse(Star(on)),Not(Nominal(a))),ontable)]
+	Feat 1159	(c=8)	weight -0.8074:	Num[Or(Forall(Star(on),Or(Nominal(a),Nominal(b))),clear)]
+	Feat 1454	(c=8)	weight -2.813:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1843	(c=8)	weight 0.203:	Num[Or(And(Not(Nominal(b)),Forall(on,Nominal(b))),clear)]
+	Feat 1866	(c=8)	weight 1.026:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 2.057:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3701	(c=8)	weight -0.4023:	Bool[holding] Bool[Exists(on,And(Not(ontable),Nominal(b)))]
+	Feat 3890	(c=7)	weight -4.269:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 3995	(c=8)	weight 0.1291:	Bool[And(holding,Nominal(a))] Num[Or(Not(Nominal(a)),holding)]
+	Feat 4265	(c=6)	weight 0.09841:	Bool[Exists(on,Nominal(b))] Num[Forall(on,<empty>)]
+	Feat 4325	(c=8)	weight -1.271:	Bool[Exists(on,Nominal(b))] Bool[Exists(Inverse(on),Nominal(b))]
+	Feat 4696	(c=8)	weight -0.1529:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.5102240442284438
+Lambda=2.06067e-05
+	Intercept	-5.148333777509514
+	Feat 0	(c=1)	weight -3.275:	Atom[handempty]
+	Feat 17	(c=3)	weight -0.4057:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 3.107:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 2.053:	Bool[Exists(on,Nominal(a))]
+	Feat 45	(c=4)	weight 0.4528:	Bool[And(Forall(on,<empty>),Nominal(b))]
+	Feat 204	(c=6)	weight 1.104:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.2124:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1145	(c=8)	weight -0.08122:	Num[Or(Forall(Inverse(Star(on)),Not(Nominal(a))),ontable)]
+	Feat 1159	(c=8)	weight -0.8331:	Num[Or(Forall(Star(on),Or(Nominal(a),Nominal(b))),clear)]
+	Feat 1454	(c=8)	weight -2.856:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1843	(c=8)	weight 0.2529:	Num[Or(And(Not(Nominal(b)),Forall(on,Nominal(b))),clear)]
+	Feat 1866	(c=8)	weight 1.065:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 2.081:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3701	(c=8)	weight -0.3456:	Bool[holding] Bool[Exists(on,And(Not(ontable),Nominal(b)))]
+	Feat 3890	(c=7)	weight -4.23:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 3995	(c=8)	weight 0.131:	Bool[And(holding,Nominal(a))] Num[Or(Not(Nominal(a)),holding)]
+	Feat 4265	(c=6)	weight 0.08839:	Bool[Exists(on,Nominal(b))] Num[Forall(on,<empty>)]
+	Feat 4325	(c=8)	weight -1.304:	Bool[Exists(on,Nominal(b))] Bool[Exists(Inverse(on),Nominal(b))]
+	Feat 4696	(c=8)	weight -0.255:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.5106371879001552
+Lambda=6.50608e-06
+	Intercept	-2.4071898376747853
+	Feat 0	(c=1)	weight -5.362:	Atom[handempty]
+	Feat 17	(c=3)	weight -0.3682:	Num[Or(ontable,Nominal(b))]
+	Feat 22	(c=3)	weight 3.106:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 2.028:	Bool[Exists(on,Nominal(a))]
+	Feat 45	(c=4)	weight 0.5005:	Bool[And(Forall(on,<empty>),Nominal(b))]
+	Feat 204	(c=6)	weight 1.068:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.2298:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1145	(c=8)	weight -0.06474:	Num[Or(Forall(Inverse(Star(on)),Not(Nominal(a))),ontable)]
+	Feat 1159	(c=8)	weight -0.8867:	Num[Or(Forall(Star(on),Or(Nominal(a),Nominal(b))),clear)]
+	Feat 1454	(c=8)	weight -2.935:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 1843	(c=8)	weight 0.2473:	Num[Or(And(Not(Nominal(b)),Forall(on,Nominal(b))),clear)]
+	Feat 1866	(c=8)	weight 1.045:	Num[Not(And(Exists(on,Exists(on,Nominal(b))),clear))]
+	Feat 2314	(c=8)	weight 2.075:	Num[Or(Or(Nominal(a),Nominal(b)),Exists(Inverse(on),clear))]
+	Feat 3642	(c=8)	weight -0.3755:	Bool[holding] Num[Forall(on,Not(Or(ontable,Nominal(b))))]
+	Feat 3701	(c=8)	weight -0.5827:	Bool[holding] Bool[Exists(on,And(Not(ontable),Nominal(b)))]
+	Feat 3890	(c=7)	weight -4.196:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 3995	(c=8)	weight 0.1289:	Bool[And(holding,Nominal(a))] Num[Or(Not(Nominal(a)),holding)]
+	Feat 4265	(c=6)	weight 0.0868:	Bool[Exists(on,Nominal(b))] Num[Forall(on,<empty>)]
+	Feat 4325	(c=8)	weight -1.351:	Bool[Exists(on,Nominal(b))] Bool[Exists(Inverse(on),Nominal(b))]
+	Feat 4696	(c=8)	weight -0.2588:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.5117500587448539

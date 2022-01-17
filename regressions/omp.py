@@ -4,10 +4,10 @@ from .score import score
 from sklearn.linear_model import OrthogonalMatchingPursuit
 
 
-def do_OMS(X, y, oms_interval, idx, complexities, names):
+def do_OMP(X, y, omp_interval, idx, complexities, names):
     # Check https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.OrthogonalMatchingPursuit.html
     n, p = np.shape(X)
-    for s in oms_interval:
+    for s in omp_interval:
         if s <= p:
             print(f"find {s} best features out of {p} features")
             omp = OrthogonalMatchingPursuit(n_nonzero_coefs=s)
@@ -15,6 +15,6 @@ def do_OMS(X, y, oms_interval, idx, complexities, names):
             coef = omp.coef_
             idx_r, = coef.nonzero()
             for i in idx_r:
-                print(f"Feat {idx[i]}\t(c={complexities[i]})\tweight {coef[i]:.2}:\t{names[i]}")
+                print(f"\tFeat {idx[i]}\t(c={complexities[i]})\tweight {coef[i]:.2}:\t{names[i]}")
             print(f"Score {omp.score(X, y)}")
-            print(f"Score {score(y, omp.predict(X))}")
+            #print(f"Score {score(y, omp.predict(X))}")

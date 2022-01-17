@@ -1,0 +1,38 @@
+Considering 6 features
+L0Learn Method
+----------
+
+Lambda=0.0647523
+	Intercept	6.108652826185786
+Score 0.0
+Lambda=0.0641047
+	Intercept	4.515494860058528
+	Feat 25	(c=False)	weight 2.673:	Bool[Exists(on,Nominal(a))]
+Score 0.12950453693757047
+Lambda=0.0411996
+	Intercept	3.1416342071215464
+	Feat 22	(c=False)	weight 2.153:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.824:	Bool[Exists(on,Nominal(a))]
+Score 0.21314999261110978
+Lambda=0.00410127
+	Intercept	3.3735678638575686
+	Feat 22	(c=False)	weight 2.005:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.676:	Bool[Exists(on,Nominal(a))]
+	Feat 3890	(c=False)	weight -2.372:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.22211847360112802
+Lambda=0.00266331
+	Intercept	3.6376395496336107
+	Feat 0	(c=False)	weight -0.5677:	Atom[handempty]
+	Feat 22	(c=False)	weight 2.061:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.732:	Bool[Exists(on,Nominal(a))]
+	Feat 3890	(c=False)	weight -2.639:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.22777162131668272
+Lambda=0.000999222
+	Intercept	3.6231456433865015
+	Feat 0	(c=False)	weight -0.4263:	Atom[handempty]
+	Feat 22	(c=False)	weight 1.955:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.712:	Bool[Exists(on,Nominal(a))]
+	Feat 45	(c=False)	weight 2.07:	Bool[And(Forall(on,<empty>),Nominal(b))]
+	Feat 3890	(c=False)	weight -2.591:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+	Feat 4696	(c=False)	weight -0.7031:	Bool[And(Forall(Star(on),Nominal(a)),Nominal(b))] Num[clear]
+Score 0.251588585152975

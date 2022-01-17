@@ -1,0 +1,29 @@
+Considering 4 features
+L0Learn Method
+----------
+
+Lambda=0.0647523
+	Intercept	6.108652826185786
+Score 0.0
+Lambda=0.0641047
+	Intercept	4.515494860058528
+	Feat 25	(c=False)	weight 2.673:	Bool[Exists(on,Nominal(a))]
+Score 0.12950453693757047
+Lambda=0.0411996
+	Intercept	3.1416342071215464
+	Feat 22	(c=False)	weight 2.153:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.824:	Bool[Exists(on,Nominal(a))]
+Score 0.21314999261110978
+Lambda=0.0183619
+	Intercept	3.8012705704121945
+	Feat 22	(c=False)	weight 2.256:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.806:	Bool[Exists(on,Nominal(a))]
+	Feat 119	(c=True)	weight -1.411:	Bool[And(Forall(on,Nominal(b)),Nominal(a))]
+Score 0.25044695206272083
+Lambda=0.00319087
+	Intercept	4.088540490791075
+	Feat 0	(c=False)	weight -0.6155:	Atom[handempty]
+	Feat 22	(c=False)	weight 2.339:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.883:	Bool[Exists(on,Nominal(a))]
+	Feat 119	(c=True)	weight -1.474:	Bool[And(Forall(on,Nominal(b)),Nominal(a))]
+Score 0.2571613640091399

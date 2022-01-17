@@ -1,0 +1,59 @@
+Considering 2 features
+Lasso Method
+----------
+
+[[0. 0.]]
+Lambda=1.4792792267885846
+Score 1.1102230246251565e-16
+Lambda=0.9110114654848845
+	Feat 1	(c=1)	weight -0.62695361670041:	Num[clear]
+Score -0.16960907225131105
+Lambda=0.5610447812795052
+	Feat 1	(c=1)	weight -1.0130618799667:	Num[clear]
+Score -0.4433844866939223
+Lambda=0.3455184248789133
+	Feat 1	(c=1)	weight -1.2508459631771:	Num[clear]
+Score -0.6762071636532938
+Lambda=0.21278690385203
+	Feat 1	(c=1)	weight -1.3972848654422:	Num[clear]
+Score -0.8439467097404458
+Lambda=0.13104443407555125
+	Feat 1	(c=1)	weight -1.4959208987084:	Num[clear]
+	Feat 2	(c=1)	weight -0.14983147398752:	Bool[holding]
+Score -1.0024786454266246
+Lambda=0.08070348029558806
+	Feat 1	(c=1)	weight -1.5578577194642:	Num[clear]
+	Feat 2	(c=1)	weight -0.26323591609912:	Bool[holding]
+Score -1.1138001898378715
+Lambda=0.04970109396684022
+	Feat 1	(c=1)	weight -1.5960014011728:	Num[clear]
+	Feat 2	(c=1)	weight -0.33307583917413:	Bool[holding]
+Score -1.1852723650327959
+Lambda=0.030608329807503026
+	Feat 1	(c=1)	weight -1.6194921193165:	Num[clear]
+	Feat 2	(c=1)	weight -0.37608663086086:	Bool[holding]
+Score -1.230393945171874
+Lambda=0.01885008515566967
+	Feat 1	(c=1)	weight -1.633958836062:	Num[clear]
+	Feat 2	(c=1)	weight -0.40257474997767:	Bool[holding]
+Score -1.258601297614843
+Lambda=0.011608791221561426
+	Feat 1	(c=1)	weight -1.642868034092:	Num[clear]
+	Feat 2	(c=1)	weight -0.41888739115892:	Bool[holding]
+Score -1.2761316164868641
+Lambda=0.007149253306437596
+	Feat 1	(c=1)	weight -1.6483548513583:	Num[clear]
+	Feat 2	(c=1)	weight -0.42893352163947:	Bool[holding]
+Score -1.2869881061622772
+Lambda=0.004402854859227468
+	Feat 1	(c=1)	weight -1.6517338979564:	Num[clear]
+	Feat 2	(c=1)	weight -0.43512041312408:	Bool[holding]
+Score -1.293696931913071
+Lambda=0.0027114902886385974
+	Feat 1	(c=1)	weight -1.6538148777589:	Num[clear]
+	Feat 2	(c=1)	weight -0.43893059917694:	Bool[holding]
+Score -1.2978372264102291
+Lambda=0.001669866443580984
+	Feat 1	(c=1)	weight -1.6550950485003:	Num[clear]
+	Feat 2	(c=1)	weight -0.441276831265:	Bool[holding]
+Score -1.3003881427432589

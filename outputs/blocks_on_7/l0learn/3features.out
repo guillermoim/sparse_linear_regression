@@ -1,0 +1,506 @@
+Considering 3 features
+L0Learn Method
+----------
+
+(65990, 3)
+Converting features to R matrix
+	flatten done
+	vector created
+	matrix created
+Lambda=0.0823883
+	Intercept	6.108652826185786
+Score 0.0
+Lambda=0.0815644
+	Intercept	10.021731221732892
+	Feat 1	(c=1)	weight -1.632:	Num[clear]
+Score 0.1647765567842142
+Lambda=0.00177073
+	Intercept	10.273134762922707
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237063588897
+Lambda=2.29306e-11
+	Intercept	10.273163069963466
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068270763
+Lambda=2.55673e-15
+	Intercept	10.27316337193063
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.90939e-19
+	Intercept	10.273163375151773
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.31e-23
+	Intercept	10.273163375186314
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=4.8301099999999995e-27
+	Intercept	10.27316337518678
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.41193e-29
+	Intercept	10.273163375186671
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.6196200000000002e-30
+	Intercept	10.273163375186812
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.1520499999999997e-32
+	Intercept	10.273163375186678
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.72164e-32
+	Intercept	10.273163375186819
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.3773099999999998e-32
+	Intercept	10.273163375186682
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.1018499999999999e-32
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=7.26531e-33
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=5.8122500000000004e-33
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=4.6498000000000004e-33
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.71984e-33
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.97587e-33
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.3807e-33
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.90456e-33
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.52365e-33
+	Intercept	10.273163375186712
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.21892e-33
+	Intercept	10.273163375186636
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=9.75133e-34
+	Intercept	10.273163375186794
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=7.80106e-34
+	Intercept	10.273163375186666
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=6.24085e-34
+	Intercept	10.27316337518681
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271296
+Lambda=4.992679999999999e-34
+	Intercept	10.273163375186678
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.99414e-34
+	Intercept	10.273163375186819
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.1953199999999995e-34
+	Intercept	10.273163375186682
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.5562499999999996e-34
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.045e-34
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.6359999999999998e-34
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.3088e-34
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.04704e-34
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=8.376329999999999e-35
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=6.70106e-35
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=5.36085e-35
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=4.28868e-35
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=3.43094e-35
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.74476e-35
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.1958e-35
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.7566399999999998e-35
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.40531e-35
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.12425e-35
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=8.99401e-36
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=7.19521e-36
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=5.75617e-36
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=4.60494e-36
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=3.68395e-36
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.94716e-36
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.35773e-36
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.88618e-36
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.50895e-36
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.20716e-36
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=9.65725e-37
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=7.7258e-37
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=6.1806399999999995e-37
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=4.94451e-37
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=3.95561e-37
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.16449e-37
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.5315899999999998e-37
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.02527e-37
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.6202199999999999e-37
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.29617e-37
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.03694e-37
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=8.295509999999999e-38
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=6.63641e-38
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=5.30913e-38
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=4.2473e-38
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.39784e-38
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.71827e-38
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.17462e-38
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.7397e-38
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.39176e-38
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.1134099999999999e-38
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=8.907239999999999e-39
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=7.12579e-39
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=5.7006299999999993e-39
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=4.5605099999999995e-39
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.6484099999999996e-39
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.9187199999999996e-39
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.33498e-39
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.86798e-39
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.49439e-39
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.19551e-39
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=9.56408e-40
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=7.65126e-40
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=6.12101e-40
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=4.8968099999999995e-40
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=3.91745e-40
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=3.1339599999999997e-40
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=2.5071699999999996e-40
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=2.0057299999999997e-40
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.6045899999999998e-40
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=1.2836699999999998e-40
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=1.02693e-40
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=8.21548e-41
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=6.57238e-41
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307
+Lambda=5.25791e-41
+	Intercept	10.273163375186684
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271318
+Lambda=4.20633e-41
+	Intercept	10.273163375186822
+	Feat 1	(c=1)	weight -1.657:	Num[clear]
+	Feat 2	(c=1)	weight -0.445:	Bool[holding]
+Score 0.16839237068271307

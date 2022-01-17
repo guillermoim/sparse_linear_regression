@@ -1,0 +1,10 @@
+Considering 2 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 2 features
+Feat 1	(c=1)	weight -1.7:	Num[clear]
+Feat 2	(c=1)	weight -0.45:	Bool[holding]
+Score 0.16839237068271318
+Score 0.16839237068271318

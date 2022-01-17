@@ -1,0 +1,15 @@
+Considering 3 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 3 features
+Feat 1	(c=1)	weight -1.7:	Num[clear]
+Feat 3	(c=2)	weight 0.45:	Num[Not(holding)]
+Score 0.16839237068271307
+Score 0.16839237068271307
+find 3 best features out of 3 features
+Feat 1	(c=1)	weight -1.7:	Num[clear]
+Feat 3	(c=2)	weight 0.45:	Num[Not(holding)]
+Score 0.16839237068271307
+Score 0.16839237068271307

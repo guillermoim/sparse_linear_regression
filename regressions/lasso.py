@@ -21,7 +21,7 @@ def do_lasso(X, y, lasso_nlambda, lasso_force_positive, lasso_penalty_complexiti
     pfac = scipy.zeros([1, p])
     for i in range(p):
         pfac[0, i] = complexities[i] - 1
-    print(pfac)
+    #print(pfac)
     if not lasso_force_positive and not lasso_penalty_complexities:
         fit = glmnet(x=xf, y=y2, nlambda=lasso_nlambda)
     if lasso_force_positive and not lasso_penalty_complexities:

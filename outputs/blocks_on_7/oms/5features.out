@@ -1,0 +1,26 @@
+Considering 5 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 5 features
+	Feat 22	(c=False)	weight 2.2:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.8:	Bool[Exists(on,Nominal(a))]
+Score 0.213149992611111
+find 3 best features out of 5 features
+	Feat 22	(c=False)	weight 2.3:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.8:	Bool[Exists(on,Nominal(a))]
+	Feat 119	(c=True)	weight -1.4:	Bool[And(Forall(on,Nominal(b)),Nominal(a))]
+Score 0.2504469520627469
+find 4 best features out of 5 features
+	Feat 0	(c=False)	weight -0.62:	Atom[handempty]
+	Feat 22	(c=False)	weight 2.3:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.9:	Bool[Exists(on,Nominal(a))]
+	Feat 119	(c=True)	weight -1.5:	Bool[And(Forall(on,Nominal(b)),Nominal(a))]
+Score 0.25716136453545
+find 5 best features out of 5 features
+	Feat 0	(c=False)	weight -0.62:	Atom[handempty]
+	Feat 22	(c=False)	weight 2.3:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=False)	weight 2.9:	Bool[Exists(on,Nominal(a))]
+	Feat 119	(c=True)	weight -1.5:	Bool[And(Forall(on,Nominal(b)),Nominal(a))]
+Score 0.25716136453545

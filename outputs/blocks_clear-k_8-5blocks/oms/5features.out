@@ -1,0 +1,27 @@
+Considering 5 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 5 features
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.8440192412946774
+find 3 best features out of 5 features
+	Feat 1	(c=1)	weight 0.97:	Bool[holding]
+	Feat 11	(c=3)	weight 0.12:	Num[Forall(on,Nominal(a))]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.8456178179427104
+find 4 best features out of 5 features
+	Feat 1	(c=1)	weight 0.97:	Bool[holding]
+	Feat 11	(c=3)	weight 0.13:	Num[Forall(on,Nominal(a))]
+	Feat 21	(c=4)	weight -0.015:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.8456257187047522
+find 5 best features out of 5 features
+	Feat 1	(c=1)	weight 0.99:	Bool[holding]
+	Feat 5	(c=2)	weight -0.022:	Num[Not(clear)]
+	Feat 11	(c=3)	weight 0.11:	Num[Forall(on,Nominal(a))]
+	Feat 21	(c=4)	weight -0.019:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.84563089510981

@@ -1,0 +1,40 @@
+Considering 4705 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 4705 features
+Feat 1162	(c=8)	weight 1.9:	Num[Or(Exists(Star(on),Or(Nominal(a),Nominal(b))),Nominal(a))]
+Feat 4663	(c=8)	weight -1.2:	Bool[And(Exists(on,Nominal(b)),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.9101877985034945
+Score 0.9101877985034945
+find 3 best features out of 4705 features
+Feat 1095	(c=8)	weight 2.0:	Bool[And(Exists(Star(on),Exists(on,Nominal(b))),Nominal(a))]
+Feat 1162	(c=8)	weight 1.9:	Num[Or(Exists(Star(on),Or(Nominal(a),Nominal(b))),Nominal(a))]
+Feat 4663	(c=8)	weight -1.1:	Bool[And(Exists(on,Nominal(b)),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.9422802228107616
+Score 0.9422802228107616
+find 4 best features out of 4705 features
+Feat 943	(c=7)	weight 2.9:	Bool[And(Exists(on,Nominal(b)),And(clear,Nominal(a)))]
+Feat 1095	(c=8)	weight 2.0:	Bool[And(Exists(Star(on),Exists(on,Nominal(b))),Nominal(a))]
+Feat 1162	(c=8)	weight 1.9:	Num[Or(Exists(Star(on),Or(Nominal(a),Nominal(b))),Nominal(a))]
+Feat 4663	(c=8)	weight -1.3:	Bool[And(Exists(on,Nominal(b)),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.9585932316408019
+Score 0.9585932316408019
+find 5 best features out of 4705 features
+Feat 7	(c=3)	weight 0.79:	Num[Or(holding,Nominal(a))]
+Feat 943	(c=7)	weight 2.9:	Bool[And(Exists(on,Nominal(b)),And(clear,Nominal(a)))]
+Feat 1095	(c=8)	weight 2.0:	Bool[And(Exists(Star(on),Exists(on,Nominal(b))),Nominal(a))]
+Feat 1162	(c=8)	weight 2.0:	Num[Or(Exists(Star(on),Or(Nominal(a),Nominal(b))),Nominal(a))]
+Feat 4663	(c=8)	weight -1.3:	Bool[And(Exists(on,Nominal(b)),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.9693289244212402
+Score 0.9693289244212402
+find 6 best features out of 4705 features
+Feat 7	(c=3)	weight 0.97:	Num[Or(holding,Nominal(a))]
+Feat 943	(c=7)	weight 3.2:	Bool[And(Exists(on,Nominal(b)),And(clear,Nominal(a)))]
+Feat 1095	(c=8)	weight 2.0:	Bool[And(Exists(Star(on),Exists(on,Nominal(b))),Nominal(a))]
+Feat 1162	(c=8)	weight 2.0:	Num[Or(Exists(Star(on),Or(Nominal(a),Nominal(b))),Nominal(a))]
+Feat 3533	(c=7)	weight -1.8:	Bool[holding] Bool[And(Exists(on,Nominal(b)),Nominal(a))]
+Feat 4663	(c=8)	weight -1.2:	Bool[And(Exists(on,Nominal(b)),Nominal(a))] Num[Exists(on,<universe>)]
+Score 0.9748602002004463
+Score 0.9748602002004463

@@ -1,0 +1,35 @@
+Considering 34 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 34 features
+	Feat 25	(c=3)	weight 2.1:	Bool[Exists(on,Nominal(a))]
+	Feat 1707	(c=8)	weight 1.2:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+Score 0.2735574000487736
+find 3 best features out of 34 features
+	Feat 25	(c=3)	weight 1.9:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 1.8:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1707	(c=8)	weight 1.5:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+Score 0.31868368417517157
+find 4 best features out of 34 features
+	Feat 22	(c=3)	weight 1.4:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 2.0:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 1.8:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1707	(c=8)	weight 1.3:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+Score 0.35146910288489985
+find 5 best features out of 34 features
+	Feat 22	(c=3)	weight 1.2:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 1.8:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 1.9:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1707	(c=8)	weight 1.4:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 3890	(c=7)	weight -3.1:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.36667983240181956
+find 6 best features out of 34 features
+	Feat 22	(c=3)	weight 0.97:	Bool[Exists(on,Nominal(b))]
+	Feat 25	(c=3)	weight 2.0:	Bool[Exists(on,Nominal(a))]
+	Feat 204	(c=6)	weight 1.8:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.34:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1707	(c=8)	weight 1.5:	Num[Or(Exists(on,Exists(on,Exists(on,<universe>))),Nominal(b))]
+	Feat 3890	(c=7)	weight -3.1:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.3836475344475432

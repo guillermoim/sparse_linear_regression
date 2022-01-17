@@ -1,0 +1,16 @@
+Considering 1 features
+L0Learn Method
+----------
+
+(65990, 1)
+Converting features to R matrix
+	flatten done
+	vector created
+	matrix created
+Lambda=0.0823883
+	Intercept	6.108652826185786
+Score 0.0
+Lambda=0.0815644
+	Intercept	10.021731221732892
+	Feat 1	(c=1)	weight -1.632:	Num[clear]
+Score 0.1647765567842142

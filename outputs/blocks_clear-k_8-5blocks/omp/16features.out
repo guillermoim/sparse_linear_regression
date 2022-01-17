@@ -1,0 +1,37 @@
+Considering 16 features
+----------
+omp Method
+----------
+
+find 2 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 3 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 4 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 5 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 6 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 7 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 8 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+find 9 best features out of 16 features
+	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0

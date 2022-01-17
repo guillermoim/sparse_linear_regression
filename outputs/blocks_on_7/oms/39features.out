@@ -1,0 +1,35 @@
+Considering 39 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 39 features
+	Feat 2372	(c=8)	weight 1.4:	Num[Or(And(holding,Nominal(a)),Exists(Star(on),Nominal(a)))]
+	Feat 2677	(c=8)	weight 3.5:	Bool[And(Or(Not(Nominal(a)),clear),Exists(on,Nominal(b)))]
+Score 0.5191590789172726
+find 3 best features out of 39 features
+	Feat 689	(c=7)	weight -0.78:	Num[Or(Forall(on,Or(ontable,Nominal(b))),Nominal(b))]
+	Feat 2372	(c=8)	weight 1.2:	Num[Or(And(holding,Nominal(a)),Exists(Star(on),Nominal(a)))]
+	Feat 2677	(c=8)	weight 3.5:	Bool[And(Or(Not(Nominal(a)),clear),Exists(on,Nominal(b)))]
+Score 0.5717711265034751
+find 4 best features out of 39 features
+	Feat 22	(c=3)	weight -6.3:	Bool[Exists(on,Nominal(b))]
+	Feat 689	(c=7)	weight -0.9:	Num[Or(Forall(on,Or(ontable,Nominal(b))),Nominal(b))]
+	Feat 2372	(c=8)	weight 1.2:	Num[Or(And(holding,Nominal(a)),Exists(Star(on),Nominal(a)))]
+	Feat 2677	(c=8)	weight 9.0:	Bool[And(Or(Not(Nominal(a)),clear),Exists(on,Nominal(b)))]
+Score 0.7259785222814279
+find 5 best features out of 39 features
+	Feat 22	(c=3)	weight -6.7:	Bool[Exists(on,Nominal(b))]
+	Feat 569	(c=7)	weight -0.42:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 689	(c=7)	weight -0.91:	Num[Or(Forall(on,Or(ontable,Nominal(b))),Nominal(b))]
+	Feat 2372	(c=8)	weight 1.4:	Num[Or(And(holding,Nominal(a)),Exists(Star(on),Nominal(a)))]
+	Feat 2677	(c=8)	weight 9.2:	Bool[And(Or(Not(Nominal(a)),clear),Exists(on,Nominal(b)))]
+Score 0.7538599377048009
+find 6 best features out of 39 features
+	Feat 22	(c=3)	weight -6.9:	Bool[Exists(on,Nominal(b))]
+	Feat 569	(c=7)	weight -0.43:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 689	(c=7)	weight -0.89:	Num[Or(Forall(on,Or(ontable,Nominal(b))),Nominal(b))]
+	Feat 2372	(c=8)	weight 1.4:	Num[Or(And(holding,Nominal(a)),Exists(Star(on),Nominal(a)))]
+	Feat 2677	(c=8)	weight 9.2:	Bool[And(Or(Not(Nominal(a)),clear),Exists(on,Nominal(b)))]
+	Feat 3890	(c=7)	weight -3.5:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.7742328132013832

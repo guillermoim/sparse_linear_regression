@@ -1,0 +1,35 @@
+Considering 22 features
+----------
+OMS Method
+----------
+
+find 2 best features out of 22 features
+	Feat 17	(c=3)	weight -1.5:	Num[Or(ontable,Nominal(b))]
+	Feat 1454	(c=8)	weight -1.7:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+Score 0.3163028881106227
+find 3 best features out of 22 features
+	Feat 17	(c=3)	weight -1.8:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.7:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -1.7:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+Score 0.3592520630410183
+find 4 best features out of 22 features
+	Feat 17	(c=3)	weight -1.8:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.8:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -1.6:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 3890	(c=7)	weight -4.2:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.3881372653333436
+find 5 best features out of 22 features
+	Feat 17	(c=3)	weight -1.5:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.7:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 1454	(c=8)	weight -2.1:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 3156	(c=7)	weight -0.4:	Atom[handempty] Num[Forall(on,Exists(on,ontable))]
+	Feat 3890	(c=7)	weight -4.7:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.41835698313320735
+find 6 best features out of 22 features
+	Feat 17	(c=3)	weight -1.5:	Num[Or(ontable,Nominal(b))]
+	Feat 204	(c=6)	weight 1.5:	Num[Or(Not(Nominal(a)),Forall(on,ontable))]
+	Feat 569	(c=7)	weight -0.3:	Num[Exists(Star(on),And(Not(Nominal(b)),ontable))]
+	Feat 1454	(c=8)	weight -2.3:	Num[Or(Exists(on,And(Not(Nominal(a)),ontable)),holding)]
+	Feat 3156	(c=7)	weight -0.41:	Atom[handempty] Num[Forall(on,Exists(on,ontable))]
+	Feat 3890	(c=7)	weight -4.6:	Bool[And(clear,Nominal(b))] Bool[And(holding,Nominal(a))]
+Score 0.4326513280531272

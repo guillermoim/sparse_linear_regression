@@ -1,0 +1,84 @@
+Lasso Method
+----------
+
+[[0. 2. 3. 3.]]
+Lambda=2.667700858822081
+Score 1.1102230246251565e-16
+Lambda=1.642898801564881
+	Feat 30	(c=4)	weight 0.69155767089265:	Num[Exists(Star(on),Nominal(a))]
+Score -0.11094088446559014
+Lambda=1.0117762879062508
+	Feat 30	(c=4)	weight 1.1174522253609:	Num[Exists(Star(on),Nominal(a))]
+Score -0.2916036485652145
+Lambda=0.6231006169060893
+	Feat 30	(c=4)	weight 1.3797386248329:	Num[Exists(Star(on),Nominal(a))]
+Score -0.4454715774007205
+Lambda=0.3837354002357526
+	Feat 30	(c=4)	weight 1.5412672347347:	Num[Exists(Star(on),Nominal(a))]
+Score -0.5563904148735077
+Lambda=0.23632275975789385
+	Feat 1	(c=1)	weight 0.18000630908175:	Bool[holding]
+	Feat 30	(c=4)	weight 1.6482445620399:	Num[Exists(Star(on),Nominal(a))]
+Score -0.6830895449508945
+Lambda=0.14553894883108526
+	Feat 1	(c=1)	weight 0.38952769826628:	Bool[holding]
+	Feat 30	(c=4)	weight 1.7182373696097:	Num[Exists(Star(on),Nominal(a))]
+Score -0.7988311680153541
+Lambda=0.08962990127805381
+	Feat 1	(c=1)	weight 0.5178839395394:	Bool[holding]
+	Feat 21	(c=4)	weight 0.0053650358204521:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.7611588478733:	Num[Exists(Star(on),Nominal(a))]
+Score -0.8757304378045454
+Lambda=0.05519841436011399
+	Feat 1	(c=1)	weight 0.59024639838102:	Bool[holding]
+	Feat 21	(c=4)	weight 0.060503134261816:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.785813428593:	Num[Exists(Star(on),Nominal(a))]
+Score -0.9360325581949072
+Lambda=0.03399384473735746
+	Feat 1	(c=1)	weight 0.62163430725859:	Bool[holding]
+	Feat 8	(c=3)	weight -0.11890232087274:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.19569443691269:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8053416678234:	Num[Exists(Star(on),Nominal(a))]
+Score -0.9743508683714728
+Lambda=0.020935048468757846
+	Feat 1	(c=1)	weight 0.62037193918162:	Bool[holding]
+	Feat 8	(c=3)	weight -0.37525242612799:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.43490900007755:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8240458418541:	Num[Exists(Star(on),Nominal(a))]
+Score -0.9985229907396038
+Lambda=0.012892812148065074
+	Feat 1	(c=1)	weight 0.61954129732002:	Bool[holding]
+	Feat 8	(c=3)	weight -0.53350892532863:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.58255708191513:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8355783075662:	Num[Exists(Star(on),Nominal(a))]
+Score -1.0135531038397065
+Lambda=0.007940015296996209
+	Feat 1	(c=1)	weight 0.61902782371141:	Bool[holding]
+	Feat 8	(c=3)	weight -0.63098478391363:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.67349775782007:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8426810453341:	Num[Exists(Star(on),Nominal(a))]
+Score -1.0228648456872467
+Lambda=0.004889844216492
+	Feat 1	(c=1)	weight 0.61871614384511:	Bool[holding]
+	Feat 8	(c=3)	weight -0.69098236394396:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.72947539635877:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8470540985747:	Num[Exists(Star(on),Nominal(a))]
+Score -1.0286207872919704
+Lambda=0.003011401813118154
+	Feat 1	(c=1)	weight 0.61853768973135:	Bool[holding]
+	Feat 8	(c=3)	weight -0.72783446200343:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.76386589967033:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8497438039489:	Num[Exists(Star(on),Nominal(a))]
+Score -1.0321742947510564
+Lambda=0.001854566419409803
+	Feat 1	(c=1)	weight 0.61845680380911:	Bool[holding]
+	Feat 8	(c=3)	weight -0.75032052761323:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.78486627067055:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8513928751434:	Num[Exists(Star(on),Nominal(a))]
+Score -1.0343673126387363
+Lambda=0.0011421314116966533
+	Feat 1	(c=1)	weight 0.6182843502908:	Bool[holding]
+	Feat 8	(c=3)	weight -0.765052918697:	Bool[And(ontable,Nominal(a))]
+	Feat 21	(c=4)	weight 0.79855573683968:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.8524396424785:	Num[Exists(Star(on),Nominal(a))]
+Score -1.0357124192488567

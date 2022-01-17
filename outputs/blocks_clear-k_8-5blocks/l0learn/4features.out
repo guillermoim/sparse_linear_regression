@@ -1,0 +1,411 @@
+Considering 4 features
+L0Learn Method
+----------
+
+Lambda=0.474879
+	Intercept	2.259815242494226
+Score 0.0
+Lambda=0.47013
+	Intercept	0.49468642880431446
+	Feat 30	(c=4)	weight 1.92:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9497584497818783
+Lambda=0.0240863
+	Intercept	1.545232862953938e-05
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.999999999950978
+Lambda=7.88284e-13
+	Intercept	4.866483429566415e-07
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9999999999999514
+Lambda=7.66058e-16
+	Intercept	1.5326273139493196e-08
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.59809e-19
+	Intercept	4.826783417399838e-10
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.53611e-22
+	Intercept	1.5201173653167643e-11
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.47454e-25
+	Intercept	4.787281682183675e-13
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.417279999999999e-28
+	Intercept	1.509903313490213e-14
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.3495899999999995e-31
+	Intercept	4.440892098500626e-16
+	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.03938e-33
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.5713899999999997e-34
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.0571099999999996e-34
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.6456899999999999e-34
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.3165499999999998e-34
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.0532399999999999e-34
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=8.42594e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=6.740749999999999e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=5.3926e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.31408e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.45127e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.76101e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.20881e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.76705e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.41364e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.13091e-35
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=9.04729e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.23783e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=5.79026e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.63221e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.70577e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.96461e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.37169e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.89735e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.51788e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.21431e-36
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=9.71445e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.77156e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=6.2172499999999995e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.9737999999999994e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.97904e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.1832299999999997e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.54658e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.0372699999999997e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.62981e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.30385e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.04308e-37
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=8.34465e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=6.67572e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=5.34058e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.27246e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.41797e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.73437e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.1875e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.75e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.4e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.1199999999999999e-38
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=8.959999999999999e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.167999999999999e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=5.734399999999999e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.58752e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.67002e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.9360099999999998e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.3488099999999997e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.8790499999999997e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.5032399999999998e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.2025899999999998e-39
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=9.620719999999999e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.69658e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=6.15726e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.92581e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.94065e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.1525199999999995e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.52202e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.0176099999999997e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.6140899999999998e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.29127e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.0330199999999999e-40
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=8.26414e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=6.61131e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=5.28905e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.23124e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.38499e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.70799e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.16639e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.73312e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.38649e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.10919e-41
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=8.87355e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.09884e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=5.67907e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=4.5432599999999995e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=3.63461e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.90769e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=2.3261499999999998e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.86092e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.4887399999999998e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=1.19099e-42
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=9.527899999999999e-43
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0
+Lambda=7.62232e-43
+	Intercept	0.9999999999999999
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 1.0

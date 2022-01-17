@@ -1,0 +1,15 @@
+----------
+OMS Method
+----------
+
+find 2 best features out of 3 features
+Feat 1	(c=1)	weight 0.73:	Bool[holding]
+Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9835825553906626
+Score 0.9835825553906626
+find 3 best features out of 3 features
+Feat 1	(c=1)	weight 0.71:	Bool[holding]
+Feat 21	(c=4)	weight 0.15:	Bool[And(Forall(on,<empty>),Nominal(a))]
+Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+Score 0.984289719123801
+Score 0.984289719123801
