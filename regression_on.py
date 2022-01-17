@@ -98,7 +98,7 @@ def plot_cov(X, names, title='default'):
             cb = plt.colorbar()
             cb.ax.tick_params(labelsize=14)
             plt.title(f'{title} CHUNK {chunk}', fontsize=16)
-            plt.savefig(f'blocksworld_on_corr_CHUNK_{row}_{col}.pdf', bbox_inches='tight', dpi=500)
+            plt.savefig(f'corr_plots/blocksworld_on/blocksworld_on_corr_CHUNK_{row}_{col}.pdf', bbox_inches='tight', dpi=500)
             chunk+=1
 
 

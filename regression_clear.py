@@ -77,7 +77,7 @@ def plot_cov(X, names, title='default'):
     cb.ax.tick_params(labelsize=14)
     plt.title(title, fontsize=16)
     
-    plt.savefig('blocksworld_clear_corr.pdf', bbox_inches='tight', dpi=500)
+    plt.savefig('corr_plots/blocksworld_clear/blocksworld_clear_corr.pdf', bbox_inches='tight', dpi=500)
 
 
 if __name__ == "__main__":
