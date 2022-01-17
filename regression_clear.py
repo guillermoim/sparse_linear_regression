@@ -70,11 +70,13 @@ def plot_cov(X, names, title='default'):
     plt.yticks(range(df.select_dtypes(['number']).shape[1]), names, fontsize=10)
 
     for (i, j), z in np.ndenumerate(df.corr()):
-        plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+        if i >= j:
+            plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
     cb = plt.colorbar()
     cb.ax.tick_params(labelsize=14)
     plt.title(title, fontsize=16)
+    
     plt.savefig('blocksworld_clear_corr.pdf', bbox_inches='tight', dpi=500)
 
 

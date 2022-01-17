@@ -1,3 +1,4 @@
+from chunk import Chunk
 import os
 import sys
 import random
@@ -61,21 +62,44 @@ def get_data(filepath, cmax):
         return X[:, 0:ic], X[:, -1], names[:ic], complexities[:ic]
 
 
-def plot_cov(X, names_x, names_y, title='default'):
+def plot_cov(X, names, title='default'):
+    
     df = pd.DataFrame(data=X)
-    f = plt.figure(figsize=(19, 15))
-    df.corr()
-    plt.matshow(df.corr(), fignum=f.number)
-    plt.xticks(range(df.select_dtypes(['number']).shape[1]), names_x, fontsize=10, rotation=90)
-    plt.yticks(range(df.select_dtypes(['number']).shape[1]), names_y, fontsize=10)
+    data = df.corr().to_numpy()
+    data = np.tril(data)
 
-    for (i, j), z in np.ndenumerate(df.corr()):
-        plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+    splits = [0, 40, 80, 120, 160, 200, 220]
 
-    cb = plt.colorbar()
-    cb.ax.tick_params(labelsize=14)
-    plt.title(title, fontsize=16)
-    plt.savefig('blocksworld_on_corr.pdf', bbox_inches='tight', dpi=500)
+    chunk = 0
+    max_cols=1
+
+    for row, idxX in enumerate(range(1, len(splits))):
+        max_cols+=1
+        for col, idxY in enumerate(range(1, max_cols)):
+
+            plt.close('all')
+
+            f = plt.figure(figsize=(19, 15))
+
+            #data in this chunk
+            x_init, x_end = splits[idxX-1], splits[idxX]
+            y_init, y_end = splits[idxY-1], splits[idxY]
+
+            X = data[x_init:x_end,  y_init:y_end]
+
+            plt.matshow(X, fignum=f.number)
+            plt.xticks(range(X.shape[1]), names[y_init:y_end], fontsize=10, rotation=90)
+            plt.yticks(range(X.shape[0]), names[x_init:x_end], fontsize=10)
+
+            for (i, j), z in np.ndenumerate(X):
+                if x_init+i >= y_init+j:
+                    plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+
+            cb = plt.colorbar()
+            cb.ax.tick_params(labelsize=14)
+            plt.title(f'{title} CHUNK {chunk}', fontsize=16)
+            plt.savefig(f'blocksworld_on_corr_CHUNK_{row}_{col}.pdf', bbox_inches='tight', dpi=500)
+            chunk+=1
 
 
 if __name__ == "__main__":
