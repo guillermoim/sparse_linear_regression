@@ -1,4 +1,3 @@
-from chunk import Chunk
 import os
 import sys
 import random
