@@ -3,35 +3,72 @@ Considering 24 features
 omp Method
 ----------
 
+find 1 best features out of 24 features
+asasas [22]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.949597374340888
 find 2 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+asasas [ 4 22]
+	Feat 6	(c=2)	weight -0.93:	Num[Not(holding)]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+Score 0.9995782753912823
 find 3 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+asasas [ 4 17 22]
+	Feat 6	(c=2)	weight -0.92:	Num[Not(holding)]
+	Feat 24	(c=4)	weight 0.085:	Num[Not(And(clear,ontable))]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+Score 0.9985694884676241
 find 4 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4  6 17 22]
+	Feat 6	(c=2)	weight -0.91:	Num[Not(holding)]
+	Feat 8	(c=3)	weight 0.21:	Bool[And(ontable,Nominal(a))]
+	Feat 24	(c=4)	weight 0.13:	Num[Not(And(clear,ontable))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9967889709455269
 find 5 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4  6 13 17 22]
+	Feat 6	(c=2)	weight -0.95:	Num[Not(holding)]
+	Feat 8	(c=3)	weight 0.19:	Bool[And(ontable,Nominal(a))]
+	Feat 20	(c=4)	weight 0.19:	Bool[And(Not(holding),Nominal(a))]
+	Feat 24	(c=4)	weight 0.13:	Num[Not(And(clear,ontable))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9962970306836555
 find 6 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4  6  9 13 17 22]
+	Feat 6	(c=2)	weight -0.92:	Num[Not(holding)]
+	Feat 8	(c=3)	weight 0.22:	Bool[And(ontable,Nominal(a))]
+	Feat 13	(c=3)	weight -0.11:	Num[Exists(on,ontable)]
+	Feat 20	(c=4)	weight 0.2:	Bool[And(Not(holding),Nominal(a))]
+	Feat 24	(c=4)	weight 0.17:	Num[Not(And(clear,ontable))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9959691780711502
 find 7 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4  6  9 13 16 17 22]
+	Feat 6	(c=2)	weight -0.91:	Num[Not(holding)]
+	Feat 8	(c=3)	weight 0.23:	Bool[And(ontable,Nominal(a))]
+	Feat 13	(c=3)	weight -0.13:	Num[Exists(on,ontable)]
+	Feat 20	(c=4)	weight 0.26:	Bool[And(Not(holding),Nominal(a))]
+	Feat 23	(c=4)	weight 0.079:	Num[Not(And(clear,Nominal(a)))]
+	Feat 24	(c=4)	weight 0.17:	Num[Not(And(clear,ontable))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9958674358577481
 find 8 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4  6  9 13 16 17 22]
+	Feat 6	(c=2)	weight -0.91:	Num[Not(holding)]
+	Feat 8	(c=3)	weight 0.23:	Bool[And(ontable,Nominal(a))]
+	Feat 13	(c=3)	weight -0.13:	Num[Exists(on,ontable)]
+	Feat 20	(c=4)	weight 0.26:	Bool[And(Not(holding),Nominal(a))]
+	Feat 23	(c=4)	weight 0.079:	Num[Not(And(clear,Nominal(a)))]
+	Feat 24	(c=4)	weight 0.17:	Num[Not(And(clear,ontable))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9958674358577481
 find 9 best features out of 24 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4  6  9 13 16 17 22]
+	Feat 6	(c=2)	weight -0.91:	Num[Not(holding)]
+	Feat 8	(c=3)	weight 0.23:	Bool[And(ontable,Nominal(a))]
+	Feat 13	(c=3)	weight -0.13:	Num[Exists(on,ontable)]
+	Feat 20	(c=4)	weight 0.26:	Bool[And(Not(holding),Nominal(a))]
+	Feat 23	(c=4)	weight 0.079:	Num[Not(And(clear,Nominal(a)))]
+	Feat 24	(c=4)	weight 0.17:	Num[Not(And(clear,ontable))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9958674358577481

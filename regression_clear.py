@@ -29,9 +29,10 @@ def get_data(filepath, cmax):
     print(f'Loading data from {filepath}\n')
     values = []
     with open(filepath, "r") as f:
+        
         # Line #0: comment line, simply ignore
         f.readline()
-
+        
         # Line #1: feature names
         names = f.readline().rstrip().split(' ')
 
@@ -70,55 +71,48 @@ def plot_cov(X, names, title='default'):
     plt.yticks(range(df.select_dtypes(['number']).shape[1]), names, fontsize=10)
 
     for (i, j), z in np.ndenumerate(df.corr()):
-        plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
-
+        if i >= j:
+            plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
     cb = plt.colorbar()
     cb.ax.tick_params(labelsize=14)
     plt.title(title, fontsize=16)
-    plt.savefig('blocksworld_clear_corr.pdf', bbox_inches='tight', dpi=500)
+    
+    plt.savefig('corr_plots/blocksworld_clear/blocksworld_clear_corr.pdf', bbox_inches='tight', dpi=500)
 
 
 if __name__ == "__main__":
     # Text format
-    # filepath = "matrices/blocks_clear-k_8-6blocks.io"
     filepath = "matrices/blocks_clear/blocks_clear-k_8-5blocks.io"
-    # filepath = "matrices/blocks_on/blocks_on-k_8-7blocks.io"
-    # filepath = "matrices/blocks_on/blocks_on-k_8-8blocks.io"
-    # filepath = "matrices/gripper/gripper-k_8-10balls.io"
-    binary_data = False
 
     # TODO: Select seed for reproducibility
     np.random.seed(10)
     random.seed(10)
 
-    # Binary format
-    # filepath = "matrices/blocks_on_7.npz"
+    # MAX COMPLEXITY FEATURES
     c_max = 5
 
-    omp_interval = np.arange(2, 10)
+    omp_interval = np.arange(1, 10)
     lasso_positive = False
     lasso_complexities = False
     lasso_nlambda = 20
 
-    methods = ['omp', 'lasso', 'l0learn'] 
-    if binary_data:
-        names, complexities, X, y = load(filepath)
-    else:
-        X, y, names, complexities = get_data(filepath=filepath, cmax=c_max)
+    methods = ['omp', ]#'lasso', 'l0learn'] 
+    X, y, names, complexities = get_data(filepath=filepath, cmax=c_max)
     n, p = np.shape(X)
 
+    # n = number of states, p = number of features
+    n, p = np.shape(X)
 
-    plot_cov(X, names, f'Blocksworld:clear - correlation matrix - $c_\max={c_max}$')
-    exit()
-
-    # Compose the target
-    variance = 1
-    y = 2 * X[:, 30] + X[:, 1] #+ np.random.normal(scale=variance, size = X.shape[0])
+    
+    true_target = 2 * X[:, 30] + X[:, 1]
 
     # This mask should be in the data
-    mask = np.empty(p,dtype=bool)
+    mask = np.empty(p, dtype=bool)
 
+    # This is the features indices that are linearly combined 
+    # to produce the value function.
     base_features = [1, 30]
+
 
     for i in range(p):
         if i in base_features:
@@ -134,53 +128,70 @@ if __name__ == "__main__":
             fs.append(i)
         else:
             nfs.append(i)
+    
+    # Create a permuation of the non ground truth features
     perm = np.random.permutation(nfs)
 
     filename = os.path.basename(filepath)
     filename = filename.split('.')[0]
 
+
+    # edit the stdout, to write out in a more appropiate buffer
     old_stdout = sys.stdout
 
     range_ = len(nfs)
 
-    # consider data incrementing the features
+    simulations = []
+
+    # This loop increases one feature at a time from the nfs pool
+    # (by setting the mask to True)
     for fi in range(range_):
-            mask[perm[fi]] = True
-            N = np.sum(mask)
-            print(f'Considering {N} features')
-            mX = X[:, mask]
-            fil_names = filter_list(names, mask)
-            fil_complexities = filter_list(complexities, mask)
-            fil_idx = filter_list(range(0, p), mask)
-            # plot_cov(mX)
-            if 'omp' in methods:
-                os.makedirs(f'outputs/{filename}/omp', exist_ok=True)
-                path = f'outputs/{filename}/omp'
-                with open(f'{path}/{np.sum(mask)}features.out', 'w') as f:
-                    sys.stdout = f
-                    print(f'Considering {N} features')
-                    print('----------\nomp Method\n----------\n')
-                    do_OMP(mX, y, omp_interval, fil_idx, fil_complexities, fil_names)
 
-            if 'lasso' in methods:
-                os.makedirs(f'outputs/{filename}/lasso', exist_ok=True)
-                path = f'outputs/{filename}/lasso'
-                with open(f'{path}/{np.sum(mask)}features.out', 'w') as f:
-                    sys.stdout = f
-                    print(f'Considering {N} features')
-                    print('Lasso Method\n----------\n')
-                    do_lasso(mX, y, lasso_nlambda, lasso_positive, lasso_complexities, fil_idx, fil_complexities, fil_names)
+            for noise_level in (0, .25, .5, 1):
 
-            if 'l0learn' in methods:
-                os.makedirs(f'outputs/{filename}/l0learn', exist_ok=True)
-                path = f'outputs/{filename}/l0learn'
-                with open(f'{path}/{np.sum(mask)}features.out', 'w') as f:
-                    sys.stdout = f
-                    print(f'Considering {N} features')
-                    print('L0Learn Method\n----------\n')
-                    do_l0learn(mX, y, fil_idx, fil_complexities, fil_names)
-            
-            sys.stdout = old_stdout
-        
-    plot_cov(mX, fil_names, 'Blockworls:clear - correlation matrix - $c_\max=5$')
-    #plt.show()
+                noisy_target = true_target + np.random.normal(scale=noise_level, size = X.shape[0])
+
+                mask[perm[fi]] = True
+                N = np.sum(mask)
+                print(f'Considering {N} features, noise level {noise_level}')
+                mX = X[:, mask]
+                
+                fil_names = filter_list(names, mask)
+                fil_complexities = filter_list(complexities, mask)
+                fil_idx = filter_list(range(0, p), mask)
+                
+                if 'omp' in methods:
+                    os.makedirs(f'outputs/{filename}/omp', exist_ok=True)
+                    path = f'outputs/{filename}/omp'
+                    with open(f'{path}/{np.sum(mask)}features.out', 'w') as f:
+                        sys.stdout = f
+                        print(f'Considering {N} features')
+                        print('----------\nomp Method\n----------\n')
+                        sim1 = do_OMP(mX, true_target, noisy_target, noise_level, omp_interval, fil_idx, fil_complexities, fil_names)
+                        simulations.extend(sim1)
+
+                if 'lasso' in methods:
+                    os.makedirs(f'outputs/{filename}/lasso', exist_ok=True)
+                    path = f'outputs/{filename}/lasso'
+                    with open(f'{path}/{np.sum(mask)}features.out', 'w') as f:
+                        sys.stdout = f
+                        print(f'Considering {N} features')
+                        print('Lasso Method\n----------\n')
+                        sim2 = do_lasso(mX, true_target, noisy_target, noise_level, lasso_nlambda, lasso_positive, lasso_complexities, fil_idx, fil_complexities, fil_names)
+
+                if 'l0learn' in methods:
+                    os.makedirs(f'outputs/{filename}/l0learn', exist_ok=True)
+                    path = f'outputs/{filename}/l0learn'
+                    with open(f'{path}/{np.sum(mask)}features.out', 'w') as f:
+                        sys.stdout = f
+                        print(f'Considering {N} features')
+                        print('L0Learn Method\n----------\n')
+                        sim3 = do_l0learn(mX, true_target, noisy_target, noise_level, y, fil_idx, fil_complexities, fil_names)
+                        
+                        
+                sys.stdout = old_stdout
+    
+    df = pd.DataFrame.from_records(simulations)
+    print(df)
+
+    df.to_csv('runs/clear_5_8.csv')
