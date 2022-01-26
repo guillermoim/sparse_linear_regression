@@ -3,35 +3,72 @@ Considering 21 features
 omp Method
 ----------
 
+find 1 best features out of 21 features
+asasas [20]
+	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
+Score 0.948321924586517
 find 2 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 4 20]
+	Feat 6	(c=2)	weight -0.95:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 2.1:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9984198192854287
 find 3 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+asasas [ 1  4 20]
+	Feat 2	(c=1)	weight -0.11:	Num[ontable]
+	Feat 6	(c=2)	weight -0.91:	Num[Not(holding)]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+Score 0.9972798165319963
 find 4 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 1  4  9 20]
+	Feat 2	(c=1)	weight -0.11:	Num[ontable]
+	Feat 6	(c=2)	weight -0.95:	Num[Not(holding)]
+	Feat 14	(c=4)	weight -0.24:	Bool[And(Not(clear),Nominal(a))]
+	Feat 30	(c=4)	weight 2.1:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9958187177830518
 find 5 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 1  4  9 12 20]
+	Feat 2	(c=1)	weight -0.1:	Num[ontable]
+	Feat 6	(c=2)	weight -0.93:	Num[Not(holding)]
+	Feat 14	(c=4)	weight -0.32:	Bool[And(Not(clear),Nominal(a))]
+	Feat 20	(c=4)	weight -0.2:	Bool[And(Not(holding),Nominal(a))]
+	Feat 30	(c=4)	weight 2.1:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9954398444752863
 find 6 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 1  4  8  9 12 20]
+	Feat 2	(c=1)	weight -0.1:	Num[ontable]
+	Feat 6	(c=2)	weight -0.94:	Num[Not(holding)]
+	Feat 13	(c=3)	weight 0.055:	Num[Exists(on,ontable)]
+	Feat 14	(c=4)	weight -0.34:	Bool[And(Not(clear),Nominal(a))]
+	Feat 20	(c=4)	weight -0.22:	Bool[And(Not(holding),Nominal(a))]
+	Feat 30	(c=4)	weight 2.2:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9953220078767687
 find 7 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 1  4  8  9 11 12 20]
+	Feat 2	(c=1)	weight -0.11:	Num[ontable]
+	Feat 6	(c=2)	weight -0.94:	Num[Not(holding)]
+	Feat 13	(c=3)	weight 0.053:	Num[Exists(on,ontable)]
+	Feat 14	(c=4)	weight -0.33:	Bool[And(Not(clear),Nominal(a))]
+	Feat 19	(c=4)	weight -0.021:	Num[Not(And(ontable,Nominal(a)))]
+	Feat 20	(c=4)	weight -0.22:	Bool[And(Not(holding),Nominal(a))]
+	Feat 30	(c=4)	weight 2.1:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9953074096824456
 find 8 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 1  4  8  9 11 12 20]
+	Feat 2	(c=1)	weight -0.11:	Num[ontable]
+	Feat 6	(c=2)	weight -0.94:	Num[Not(holding)]
+	Feat 13	(c=3)	weight 0.053:	Num[Exists(on,ontable)]
+	Feat 14	(c=4)	weight -0.33:	Bool[And(Not(clear),Nominal(a))]
+	Feat 19	(c=4)	weight -0.021:	Num[Not(And(ontable,Nominal(a)))]
+	Feat 20	(c=4)	weight -0.22:	Bool[And(Not(holding),Nominal(a))]
+	Feat 30	(c=4)	weight 2.1:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9953074096824456
 find 9 best features out of 21 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 1  4  8  9 11 12 20]
+	Feat 2	(c=1)	weight -0.11:	Num[ontable]
+	Feat 6	(c=2)	weight -0.94:	Num[Not(holding)]
+	Feat 13	(c=3)	weight 0.053:	Num[Exists(on,ontable)]
+	Feat 14	(c=4)	weight -0.33:	Bool[And(Not(clear),Nominal(a))]
+	Feat 19	(c=4)	weight -0.021:	Num[Not(And(ontable,Nominal(a)))]
+	Feat 20	(c=4)	weight -0.22:	Bool[And(Not(holding),Nominal(a))]
+	Feat 30	(c=4)	weight 2.1:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9953074096824456

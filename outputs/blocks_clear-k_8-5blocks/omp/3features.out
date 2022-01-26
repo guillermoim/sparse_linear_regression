@@ -3,11 +3,18 @@ Considering 3 features
 omp Method
 ----------
 
+find 1 best features out of 3 features
+asasas [2]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9495603124121273
 find 2 best features out of 3 features
-	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+asasas [0 2]
+	Feat 1	(c=1)	weight 0.94:	Bool[holding]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+Score 0.9996145474129751
 find 3 best features out of 3 features
-	Feat 1	(c=1)	weight 1.0:	Bool[holding]
+asasas [0 1 2]
+	Feat 1	(c=1)	weight 0.93:	Bool[holding]
+	Feat 21	(c=4)	weight 0.046:	Bool[And(Forall(on,<empty>),Nominal(a))]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+Score 0.9995085828332333

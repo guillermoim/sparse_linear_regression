@@ -3,35 +3,74 @@ Considering 33 features
 omp Method
 ----------
 
+find 1 best features out of 33 features
+asasas [30]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9485418522843547
 find 2 best features out of 33 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 6 30]
+	Feat 6	(c=2)	weight -0.98:	Num[Not(holding)]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9987696560000304
 find 3 best features out of 33 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 6 21 30]
+	Feat 6	(c=2)	weight -0.99:	Num[Not(holding)]
+	Feat 21	(c=4)	weight -0.045:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9986692349193116
 find 4 best features out of 33 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 6 11 21 30]
+	Feat 6	(c=2)	weight -0.97:	Num[Not(holding)]
+	Feat 11	(c=3)	weight 0.032:	Num[Forall(on,Nominal(a))]
+	Feat 21	(c=4)	weight -0.062:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9985524387927851
 find 5 best features out of 33 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 6 11 13 21 30]
+	Feat 6	(c=2)	weight -0.98:	Num[Not(holding)]
+	Feat 11	(c=3)	weight 0.03:	Num[Forall(on,Nominal(a))]
+	Feat 13	(c=3)	weight 0.033:	Num[Exists(on,ontable)]
+	Feat 21	(c=4)	weight -0.063:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9985099964296092
 find 6 best features out of 33 features
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+asasas [ 6 11 13 21 30 31]
+	Feat 6	(c=2)	weight -0.99:	Num[Not(holding)]
+	Feat 11	(c=3)	weight 0.14:	Num[Forall(on,Nominal(a))]
+	Feat 13	(c=3)	weight 0.053:	Num[Exists(on,ontable)]
+	Feat 21	(c=4)	weight 0.016:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+	Feat 31	(c=4)	weight -0.13:	Num[Forall(Star(on),Nominal(a))]
+Score 0.9982148782864552
 find 7 best features out of 33 features
+asasas [ 6  9 11 13 21 30 31]
 	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+	Feat 9	(c=3)	weight 0.098:	Bool[And(clear,Nominal(a))]
+	Feat 11	(c=3)	weight 0.22:	Num[Forall(on,Nominal(a))]
+	Feat 13	(c=3)	weight 0.075:	Num[Exists(on,ontable)]
+	Feat 21	(c=4)	weight 0.064:	Bool[And(Forall(on,<empty>),Nominal(a))]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+	Feat 31	(c=4)	weight -0.2:	Num[Forall(Star(on),Nominal(a))]
+Score 0.9980899900919071
 find 8 best features out of 33 features
+asasas [ 6  9 11 13 20 21 30 31]
 	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 9	(c=3)	weight 0.12:	Bool[And(clear,Nominal(a))]
+	Feat 11	(c=3)	weight 0.24:	Num[Forall(on,Nominal(a))]
+	Feat 13	(c=3)	weight 0.08:	Num[Exists(on,ontable)]
+	Feat 20	(c=4)	weight -0.039:	Bool[And(Not(holding),Nominal(a))]
+	Feat 21	(c=4)	weight 0.062:	Bool[And(Forall(on,<empty>),Nominal(a))]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+	Feat 31	(c=4)	weight -0.21:	Num[Forall(Star(on),Nominal(a))]
+Score 0.9980821726306989
 find 9 best features out of 33 features
+asasas [ 6  9 11 13 20 21 30 31]
 	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
+	Feat 9	(c=3)	weight 0.12:	Bool[And(clear,Nominal(a))]
+	Feat 11	(c=3)	weight 0.24:	Num[Forall(on,Nominal(a))]
+	Feat 13	(c=3)	weight 0.08:	Num[Exists(on,ontable)]
+	Feat 20	(c=4)	weight -0.039:	Bool[And(Not(holding),Nominal(a))]
+	Feat 21	(c=4)	weight 0.062:	Bool[And(Forall(on,<empty>),Nominal(a))]
 	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 1.0
+	Feat 31	(c=4)	weight -0.21:	Num[Forall(Star(on),Nominal(a))]
+Score 0.9980821726306989
