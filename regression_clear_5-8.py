@@ -89,30 +89,28 @@ if __name__ == "__main__":
     random.seed(10)
 
     # MAX COMPLEXITY FEATURES
-    c_max = 5
+    c_max = 8
 
     omp_interval = np.arange(1, 10)
     lasso_positive = False
     lasso_complexities = False
     lasso_nlambda = 20
 
-    methods = ['omp', ]#'lasso', 'l0learn'] 
+    methods = ['omp', 'lasso', 'l0learn'] 
     X, y, names, complexities = get_data(filepath=filepath, cmax=c_max)
     n, p = np.shape(X)
 
     # n = number of states, p = number of features
     n, p = np.shape(X)
 
-    
-    true_target = 2 * X[:, 30] + X[:, 1]
+    true_target = np.copy(y)
 
     # This mask should be in the data
     mask = np.empty(p, dtype=bool)
 
     # This is the features indices that are linearly combined 
     # to produce the value function.
-    base_features = [1, 30]
-
+    base_features = list(range(30))
 
     for i in range(p):
         if i in base_features:
@@ -134,7 +132,6 @@ if __name__ == "__main__":
 
     filename = os.path.basename(filepath)
     filename = filename.split('.')[0]
-
 
     # edit the stdout, to write out in a more appropiate buffer
     old_stdout = sys.stdout
@@ -178,6 +175,7 @@ if __name__ == "__main__":
                         print(f'Considering {N} features')
                         print('Lasso Method\n----------\n')
                         sim2 = do_lasso(mX, true_target, noisy_target, noise_level, lasso_nlambda, lasso_positive, lasso_complexities, fil_idx, fil_complexities, fil_names)
+                        simulations.extend(sim2)
 
                 if 'l0learn' in methods:
                     os.makedirs(f'outputs/{filename}/l0learn', exist_ok=True)
@@ -186,12 +184,12 @@ if __name__ == "__main__":
                         sys.stdout = f
                         print(f'Considering {N} features')
                         print('L0Learn Method\n----------\n')
-                        sim3 = do_l0learn(mX, true_target, noisy_target, noise_level, y, fil_idx, fil_complexities, fil_names)
-                        
-                        
+                        sim3 = do_l0learn(mX, true_target, noisy_target, noise_level, fil_idx, fil_complexities, fil_names)
+                        simulations.extend(sim3)
+
                 sys.stdout = old_stdout
     
     df = pd.DataFrame.from_records(simulations)
     print(df)
 
-    df.to_csv('runs/clear_5_8.csv')
+    df.to_csv('runs/clear_5_8.csv', index=False)

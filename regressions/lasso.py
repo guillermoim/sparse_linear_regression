@@ -57,8 +57,8 @@ def do_lasso(X, true_target, noisy_target, noise_level, lasso_nlambda, lasso_for
 
         print(f"Score {score(yt, yp)}")
 
-        entry = {"method": "omp", "parameter": vlambda[l], "total_features":p, "noise_level": noise_level, 
-                 "noisy_score": score(X, noisy_target), "score": score(X, true_target), 
+        entry = {"method": "lasso", "parameter": vlambda[l], "total_features":p, "noise_level": noise_level, 
+                 "noisy_score": score(yp, noisy_target), "score": score(yp, true_target), 
                  "features_names": feat_names, "feature_weights" : feat_weights, "feature_complexities":feat_complexities}
 
         res.append(entry)

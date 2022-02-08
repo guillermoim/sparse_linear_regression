@@ -61,87 +61,38 @@ def get_data(filepath, cmax):
         return X[:, 0:ic], X[:, -1], names[:ic], complexities[:ic]
 
 
-def plot_cov(X, names, title='default'):
-    
-    df = pd.DataFrame(data=X)
-    data = df.corr().to_numpy()
-    data = np.tril(data)
-
-    splits = [0, 40, 80, 120, 160, 200, 220]
-
-    chunk = 0
-    max_cols=1
-
-    for row, idxX in enumerate(range(1, len(splits))):
-        max_cols+=1
-        for col, idxY in enumerate(range(1, max_cols)):
-
-            plt.close('all')
-
-            f = plt.figure(figsize=(19, 15))
-
-            #data in this chunk
-            x_init, x_end = splits[idxX-1], splits[idxX]
-            y_init, y_end = splits[idxY-1], splits[idxY]
-
-            X = data[x_init:x_end,  y_init:y_end]
-
-            plt.matshow(X, fignum=f.number)
-            plt.xticks(range(X.shape[1]), names[y_init:y_end], fontsize=10, rotation=90)
-            plt.yticks(range(X.shape[0]), names[x_init:x_end], fontsize=10)
-
-            for (i, j), z in np.ndenumerate(X):
-                if x_init+i >= y_init+j:
-                    plt.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
-
-            cb = plt.colorbar()
-            cb.ax.tick_params(labelsize=14)
-            plt.title(f'{title} CHUNK {chunk}', fontsize=16)
-            plt.savefig(f'corr_plots/blocksworld_on/blocksworld_on_corr_CHUNK_{row}_{col}.pdf', bbox_inches='tight', dpi=500)
-            chunk+=1
-
-
 if __name__ == "__main__":
+    
     # Text format
     filepath = "matrices/blocks_on_7.npz"
-    binary_data = True
 
     # TODO: Select seed for reproducibility
     np.random.seed(10)
     random.seed(10)
 
     # Binary format
-    # filepath = "matrices/blocks_on_7.npz"
-    c_max = 5
+    c_max = 8
 
-    oms_interval = np.arange(2, 7)
+    omp_interval = np.arange(2, 7)
     lasso_positive = False
     lasso_complexities = False
     lasso_nlambda = 20
 
-    methods = ['oms', 'lasso', 'l0learn'] #,
+    methods = ['oms', 'lasso', 'l0learn']
 
-    if binary_data:
-        names, complexities, X, y = load(filepath)
-        sel = np.where(complexities <= c_max)[0]
-        print('Total features', sel.shape)
-        names, complexities, X, y = names[sel], complexities[sel], X[:, sel], y
-    else:
-        X, y, names, complexities = get_data(filepath=filepath, cmax=c_max)
+    names, complexities, X, y = load(filepath)
+    sel = np.where(complexities <= c_max)[0]
+    print('Total features', sel.shape)
+    names, complexities, X, y = names[sel], complexities[sel], X[:, sel], y
+    
     n, p = np.shape(X)
 
-    # For complexity c_max = 5, the feature pool size 220
-    # If I set 40
-
-    plot_cov(X, names, f'Blocksworld:on - correlation matrix - $c_\max={c_max}$')
-    exit()
-
-    #y = 2 * X[:, 30] + X[:, 1]
+    target = np.copy(y)
 
     # This mask should be in the data
     mask = np.empty(p,dtype=bool)
     for i in range(p):
-        if i in (0, 22, 25, 3890, 4696):
+        if i < 500:
             mask[i] = True
         else:
             mask[i] = False
@@ -162,12 +113,21 @@ if __name__ == "__main__":
 
     old_stdout = sys.stdout
 
-    range_ = 150
+    range_ = 450
+
+    simulations = []
+
 
     # consider data incrementing the features
     for fi in range(range_):
+         
+         for noise_level in (0, .25, .5, 1):
+            
+            noisy_target = target + np.random.normal(scale=noise_level, size = X.shape[0])
+
             mask[perm[fi]] = True
             N = np.sum(mask)
+            
             print(f'Considering {N} features')
             mX = X[:, mask]
             fil_names = filter_list(names, mask)
@@ -181,7 +141,8 @@ if __name__ == "__main__":
                     sys.stdout = f
                     print(f'Considering {N} features')
                     print('----------\nOMS Method\n----------\n')
-                    do_OMP(mX, y, oms_interval, fil_idx, fil_complexities, fil_names)
+                    sim1 = do_OMP(mX, target, noisy_target, noise_level, omp_interval, fil_idx, fil_complexities, fil_names)
+                    simulations.extend(sim1)
 
             if 'lasso' in methods:
                 os.makedirs(f'outputs/{filename}/lasso', exist_ok=True)
@@ -190,7 +151,8 @@ if __name__ == "__main__":
                     sys.stdout = f
                     print(f'Considering {N} features')
                     print('Lasso Method\n----------\n')
-                    do_lasso(mX, y, lasso_nlambda, lasso_positive, lasso_complexities, fil_idx, fil_complexities, fil_names)
+                    sim2 = do_lasso(mX, target, noisy_target, noise_level, lasso_nlambda, lasso_positive, lasso_complexities, fil_idx, fil_complexities, fil_names)
+                    simulations.extend(sim2)
 
             if 'l0learn' in methods:
                 os.makedirs(f'outputs/{filename}/l0learn', exist_ok=True)
@@ -199,8 +161,12 @@ if __name__ == "__main__":
                     sys.stdout = f
                     print(f'Considering {N} features')
                     print('L0Learn Method\n----------\n')
-                    do_l0learn(mX, y, fil_idx, fil_complexities, fil_names)
-            
+                    sim3 = do_l0learn(mX, target, noisy_target, noise_level, fil_idx, fil_complexities, fil_names)
+                    simulations.extend(sim3)
+
             sys.stdout = old_stdout
 
-    #plt.show()
+    df = pd.DataFrame.from_records(simulations)
+    print(df)
+
+    df.to_csv('runs/blocksworld_on.csv', index=False)

@@ -4,71 +4,74 @@ omp Method
 ----------
 
 find 1 best features out of 23 features
-asasas [22]
-	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
-Score 0.9497029179096996
+asasas [1]
+	Feat 30	(c=4)	weight 1.7:	Num[Exists(Star(on),Nominal(a))]
+Score 0.9368579354249427
 find 2 best features out of 23 features
-asasas [ 4 22]
-	Feat 6	(c=2)	weight -1.0:	Num[Not(holding)]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 0.9999111728236484
+asasas [0 1]
+	Feat 1	(c=1)	weight 0.65:	Bool[holding]
+	Feat 30	(c=4)	weight 1.7:	Num[Exists(Star(on),Nominal(a))]
+Score 0.966545251779889
 find 3 best features out of 23 features
-asasas [ 4 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 27	(c=4)	weight -0.12:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
-Score 0.9985628088083642
+asasas [ 0  1 16]
+	Feat 1	(c=1)	weight 0.75:	Bool[holding]
+	Feat 30	(c=4)	weight 1.7:	Num[Exists(Star(on),Nominal(a))]
+	Feat 183	(c=7)	weight 0.22:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+Score 0.9742742069470797
 find 4 best features out of 23 features
-asasas [ 4 13 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 20	(c=4)	weight 0.2:	Bool[And(Not(holding),Nominal(a))]
-	Feat 27	(c=4)	weight -0.15:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
-Score 0.9980707910116758
+asasas [ 0  1  9 16]
+	Feat 1	(c=1)	weight 1.3:	Bool[holding]
+	Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+	Feat 119	(c=6)	weight -0.79:	Num[Not(And(Not(holding),Not(Nominal(a))))]
+	Feat 183	(c=7)	weight 0.12:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+Score 0.9802533527560044
 find 5 best features out of 23 features
-asasas [ 4  9 13 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 13	(c=3)	weight 0.071:	Num[Exists(on,ontable)]
-	Feat 20	(c=4)	weight 0.2:	Bool[And(Not(holding),Nominal(a))]
-	Feat 27	(c=4)	weight -0.15:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
-Score 0.9978683840707011
+asasas [ 0  1  9 16 19]
+	Feat 1	(c=1)	weight 1.3:	Bool[holding]
+	Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+	Feat 119	(c=6)	weight -0.78:	Num[Not(And(Not(holding),Not(Nominal(a))))]
+	Feat 183	(c=7)	weight 0.16:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+	Feat 194	(c=7)	weight 0.14:	Num[Not(And(Not(Nominal(a)),Exists(on,ontable)))]
+Score 0.980789870591805
 find 6 best features out of 23 features
-asasas [ 4  6  9 13 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 8	(c=3)	weight 0.047:	Bool[And(ontable,Nominal(a))]
-	Feat 13	(c=3)	weight 0.066:	Num[Exists(on,ontable)]
-	Feat 20	(c=4)	weight 0.17:	Bool[And(Not(holding),Nominal(a))]
-	Feat 27	(c=4)	weight -0.14:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
-Score 0.9977744030006677
+asasas [ 0  1  9 14 16 19]
+	Feat 1	(c=1)	weight 1.3:	Bool[holding]
+	Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+	Feat 119	(c=6)	weight -0.73:	Num[Not(And(Not(holding),Not(Nominal(a))))]
+	Feat 162	(c=7)	weight 0.11:	Num[And(Forall(Star(on),Not(Nominal(a))),clear)]
+	Feat 183	(c=7)	weight 0.21:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+	Feat 194	(c=7)	weight 0.16:	Num[Not(And(Not(Nominal(a)),Exists(on,ontable)))]
+Score 0.9836600330399533
 find 7 best features out of 23 features
-asasas [ 4  6  9 10 13 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 8	(c=3)	weight 0.041:	Bool[And(ontable,Nominal(a))]
-	Feat 13	(c=3)	weight 0.079:	Num[Exists(on,ontable)]
-	Feat 14	(c=4)	weight -0.089:	Bool[And(Not(clear),Nominal(a))]
-	Feat 20	(c=4)	weight 0.1:	Bool[And(Not(holding),Nominal(a))]
-	Feat 27	(c=4)	weight -0.14:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 0.997644795726538
+asasas [ 0  1  9 14 15 16 19]
+	Feat 1	(c=1)	weight 1.3:	Bool[holding]
+	Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+	Feat 119	(c=6)	weight -0.56:	Num[Not(And(Not(holding),Not(Nominal(a))))]
+	Feat 162	(c=7)	weight 0.19:	Num[And(Forall(Star(on),Not(Nominal(a))),clear)]
+	Feat 171	(c=7)	weight -0.3:	Num[Not(And(Not(And(clear,ontable)),Nominal(a)))]
+	Feat 183	(c=7)	weight 0.29:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+	Feat 194	(c=7)	weight 0.19:	Num[Not(And(Not(Nominal(a)),Exists(on,ontable)))]
+Score 0.984691999183212
 find 8 best features out of 23 features
-asasas [ 4  6  9 10 13 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 8	(c=3)	weight 0.041:	Bool[And(ontable,Nominal(a))]
-	Feat 13	(c=3)	weight 0.079:	Num[Exists(on,ontable)]
-	Feat 14	(c=4)	weight -0.089:	Bool[And(Not(clear),Nominal(a))]
-	Feat 20	(c=4)	weight 0.1:	Bool[And(Not(holding),Nominal(a))]
-	Feat 27	(c=4)	weight -0.14:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 0.997644795726538
+asasas [ 0  1  9 14 15 16 17 19]
+	Feat 1	(c=1)	weight 1.2:	Bool[holding]
+	Feat 30	(c=4)	weight 1.8:	Num[Exists(Star(on),Nominal(a))]
+	Feat 119	(c=6)	weight -0.6:	Num[Not(And(Not(holding),Not(Nominal(a))))]
+	Feat 162	(c=7)	weight 0.25:	Num[And(Forall(Star(on),Not(Nominal(a))),clear)]
+	Feat 171	(c=7)	weight -0.25:	Num[Not(And(Not(And(clear,ontable)),Nominal(a)))]
+	Feat 183	(c=7)	weight 0.24:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+	Feat 185	(c=7)	weight 0.15:	Num[And(Forall(on,Exists(on,<universe>)),Not(clear))]
+	Feat 194	(c=7)	weight 0.19:	Num[Not(And(Not(Nominal(a)),Exists(on,ontable)))]
+Score 0.9841953041036107
 find 9 best features out of 23 features
-asasas [ 4  6  9 10 13 19 22]
-	Feat 6	(c=2)	weight -1.1:	Num[Not(holding)]
-	Feat 8	(c=3)	weight 0.041:	Bool[And(ontable,Nominal(a))]
-	Feat 13	(c=3)	weight 0.079:	Num[Exists(on,ontable)]
-	Feat 14	(c=4)	weight -0.089:	Bool[And(Not(clear),Nominal(a))]
-	Feat 20	(c=4)	weight 0.1:	Bool[And(Not(holding),Nominal(a))]
-	Feat 27	(c=4)	weight -0.14:	Num[Forall(Inverse(on),Nominal(a))]
-	Feat 30	(c=4)	weight 2.0:	Num[Exists(Star(on),Nominal(a))]
-Score 0.997644795726538
+asasas [ 0  1  2  9 14 15 16 17 19]
+	Feat 1	(c=1)	weight 1.5:	Bool[holding]
+	Feat 30	(c=4)	weight 1.9:	Num[Exists(Star(on),Nominal(a))]
+	Feat 49	(c=5)	weight -0.24:	Num[Forall(Inverse(on),Not(Nominal(a)))]
+	Feat 119	(c=6)	weight -0.76:	Num[Not(And(Not(holding),Not(Nominal(a))))]
+	Feat 162	(c=7)	weight 0.28:	Num[And(Forall(Star(on),Not(Nominal(a))),clear)]
+	Feat 171	(c=7)	weight -0.091:	Num[Not(And(Not(And(clear,ontable)),Nominal(a)))]
+	Feat 183	(c=7)	weight 0.27:	Num[And(Exists(on,Not(Nominal(a))),Not(Nominal(a)))]
+	Feat 185	(c=7)	weight 0.082:	Num[And(Forall(on,Exists(on,<universe>)),Not(clear))]
+	Feat 194	(c=7)	weight 0.074:	Num[Not(And(Not(Nominal(a)),Exists(on,ontable)))]
+Score 0.9843846708324097

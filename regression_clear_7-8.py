@@ -178,6 +178,7 @@ if __name__ == "__main__":
                         print(f'Considering {N} features')
                         print('Lasso Method\n----------\n')
                         sim2 = do_lasso(mX, true_target, noisy_target, noise_level, lasso_nlambda, lasso_positive, lasso_complexities, fil_idx, fil_complexities, fil_names)
+                        simulations.extend(sim2)
 
                 if 'l0learn' in methods:
                     os.makedirs(f'outputs/{filename}/l0learn', exist_ok=True)
@@ -187,7 +188,7 @@ if __name__ == "__main__":
                         print(f'Considering {N} features')
                         print('L0Learn Method\n----------\n')
                         sim3 = do_l0learn(mX, true_target, noisy_target, noise_level, y, fil_idx, fil_complexities, fil_names)
-                        
+                        simulations.extend(sim3)
                         
                 sys.stdout = old_stdout
     

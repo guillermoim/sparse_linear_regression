@@ -24,7 +24,10 @@ def do_l0learn(X, true_target, noisy_target, noise_level, idx, complexities, nam
     vlambda = res[0]
     #vgamma = res[1]
     #vsupp = res[2]
-    yt = np.squeeze(np.array(y))
+    yt = np.squeeze(np.array(noisy_target))
+
+
+    res_ = []
     
     for l in range(len(vlambda)):
         print(f"Lambda={vlambda[l]}")
@@ -42,7 +45,7 @@ def do_l0learn(X, true_target, noisy_target, noise_level, idx, complexities, nam
         for i in range(1, len(lnc)):
             print(f"\tFeat {idx[vidx[i]-1]}\t(c={complexities[vidx[i]-1]})\tweight {weights[i]:.4}:\t{names[vidx[i]-1]}")
             
-            feat_weights.append(round(weights[vidx[i]-1], 4))
+            feat_weights.append(round(weights[i], 4))
             feat_complexities.append(complexities[vidx[i]-1])
             feat_names.append(names[vidx[i]-1])
 
@@ -52,9 +55,9 @@ def do_l0learn(X, true_target, noisy_target, noise_level, idx, complexities, nam
         print(f"Score {score(yt, yp)}")
 
         entry = {"method": "L0", "parameter": vlambda[l], "total_features":p, "noise_level": noise_level, 
-                 "noisy_score": score(X, noisy_target), "score": score(X, true_target), 
+                 "noisy_score": score(yp, noisy_target), "score": score(yp, true_target), 
                  "features_names": feat_names, "feature_weights" : feat_weights, "feature_complexities":feat_complexities}
 
-        res.append(entry)
+        res_.append(entry)
 
-    return res
+    return res_
