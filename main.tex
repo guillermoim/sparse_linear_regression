@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\makeatletter
+
+\usepackage{blindtext}  % dummy text
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{physics}
+\usepackage{color}
+\usepackage{xcolor}
+
+\newcommand{\tS}{\text{t}}   % for terminal states
+\newcommand{\tSi}{\tau}   % for terminal states in the subtasks
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cX}{\mathcal{X}}
+%mine bold math symbols
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\param}{\mathbf{w}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bI}{\mathbf{I}}
+
+
+\newcommand{\EE}[1]{\mathbb{E}\left[#1\right]}
+\newcommand{\EEc}[2]{\mathbb{E}\left[#1\;\middle\lvert\;#2\right]}
+\newcommand{\pa}[1]{\left(#1\right)}
+
+\newcommand{\diag}{\text{diag}}
+
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{definition}[theorem]{Definition}
+%\newenvironment{proof}[1][Proof]{\begin{trivlist}
+%item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\title{Notes on Reinforcement Learning}
+\author{Guillermo Infante}
+\date{\today}
+
+
+
+\begin{document}
+
+\maketitle
+\section{Intro}
+According to (Frances et al., 2021), a general policy to solving the domain $clear(x)$ is
+\begin{align}
+    r_1 &: \{\neg c, H, n=0\} \implies \{c, \neg H\}, \\
+    r_2 &: \{\neg c, \neg H, n=0 \} \implies \{c?, H, n \downarrow\}, \\
+    r_3 &: \{\neg c, H, n=0\} \implies \{ \neg H \},
+\end{align}
+
+\noindent In this case $c$ stands for block $x$ being clear. $H$ and $n$ are define the same way as in 
+
+\[
+    V^*(s) = h^*(s) = 2 n(s) + H(s) \\   
+\]
+
+\noindent For $\mathcal{Q}_{clear}$ is
+\begin{itemize}
+    \item $\lvert \mathcal F \rvert = 532$
+    \item $ k_\mathcal{F} = 8$
+    \item Max. complexity for feature in the solution $ k^*= 4$
+    \item Number of selected features is $\lvert \pi_\phi \rvert = 3$
+\end{itemize} 
+
+\end{document}
